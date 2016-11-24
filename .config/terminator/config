@@ -1,0 +1,22 @@
+[global_config]
+  inactive_color_offset = 0.76
+  scroll_tabbar = True
+  title_transmit_bg_color = "#606060"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.92
+    background_image = None
+    background_type = transparent
+    font = Liberation Mono 10
+    scrollbar_position = hidden
+    use_system_font = False
